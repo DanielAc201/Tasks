@@ -1,0 +1,78 @@
+:root {
+    --purple:#9a67ea;
+    --blue-light:#04d4c3;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, var(--purple) , var(--blue-light));
+    color: #fff;
+}
+
+/* Estilos de la barra de navegación */
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos de la sección de descripción */
+.descripcion {
+    padding: 40px;
+    text-align: center;
+}
+
+.descripcion h1 {
+    font-size: 24px;
+}
+
+.descripcion p {
+    font-size: 18px;
+}
+
+/* Estilos de la sección de contacto */
+.contacto {
+    padding: 40px;
+    text-align: center;
+}
+
+.contacto h2 {
+    font-size: 24px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+label, input, textarea, button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+button {
+    background-color: #2b8b8f;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
